@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Warung Ditztya - Paket XL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Warung Ditztya - Paket XL</h1>
+    <form id="orderForm">
+      <label for="nomor">Nomor XL:</label>
+      <input type="text" id="nomor" name="nomor" placeholder="08xxxxxxx" required />
+
+      <label for="paket">Pilih Paket:</label>
+      <select id="paket" name="paket">
+        <option value="Xtra Combo 10GB - Rp25.000">Xtra Combo 10GB - Rp25.000</option>
+        <option value="Xtra Combo 20GB - Rp45.000">Xtra Combo 20GB - Rp45.000</option>
+        <option value="Xtra Combo 35GB - Rp65.000">Xtra Combo 35GB - Rp65.000</option>
+      </select>
+
+      <button type="submit">Pesan via WhatsApp</button>
+    </form>
+
+    <h2>Pembayaran:</h2>
+    <p>Scan QRIS GoPay/DANA ke:</p>
+    <img src="qris.jpg" alt="QRIS GoPay/DANA" class="qris"/>
+    <p><strong>082338559968 (Jovian R)</strong></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

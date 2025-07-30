@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  text-align: center;
+}
+form label, form input, form select, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+form input, form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #218838;
+}
+.qris {
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
